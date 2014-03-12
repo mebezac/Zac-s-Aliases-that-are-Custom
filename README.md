@@ -4,15 +4,21 @@ Zac's Aliases that are Custom (ZAC)
 This is a collection of custom aliases for things I use all the time in the course of working on Rails projects, using git, and using my computer in general. If it's helpful to you, great. If not, don't use it. I'm lazy, so these seem valuable to me. Of course an argument could be made for how much time I wasted putting this together...
 
 ### NOTE ###
-These aliases were prepared on my system, which is currently running Ubuntu 13.10 64bit, Unity, and using Nautilus.
+These aliases were prepared on my system, which is currently running Linux Mint 16 64Bit (Cinnamon Desktop)
 
 ### How to use ###
-1. Open your home folder
-2. Press "Ctrl + h" to show hidden files
-3. Create a new empty file named ".bash_aliases"
-4. Copy and paste the contents of my file into yours.
-5. Save file
-6. Reopen your terminal to use the aliases.
+* Open your home folder
+* Press "Ctrl + h" to show hidden files
+* In .bashrc make sure you have 
+```
+if [ -f ~/.bash_aliases ]; then
+ . ~/.bash_aliases
+fi
+```
+* Create a new empty file named ".bash_aliases"
+* Copy and paste the contents of my file into yours.
+* Save file
+* Reopen your terminal to use the aliases.
 
 ## Sections: ##
 All of the aliases are separated into sections based on what they are used for.
