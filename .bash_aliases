@@ -3,7 +3,7 @@
 #Some of these may not work on your computer.
 
 #Apt Aliases
-alias apt-uu='sudo apt-get update; sudo apt-get upgrade -y'
+alias apt-uu='sudo apt-get update; sudo apt-get upgrade -y; sudo apt-get autoclean; sudo apt-get autoremove'
 alias install='sudo apt-get install'
 
 #Bundler Aliases
